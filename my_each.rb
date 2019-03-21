@@ -5,7 +5,7 @@ def my_each(words)
   yield words[i]
   i=i+1 
 end
-words_each do |word|
+words.each do |word|
   word
 end
 end
